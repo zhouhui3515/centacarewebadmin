@@ -1,0 +1,131 @@
+
+html
+{
+    -webkit-font-smoothing:antialiased;
+}
+
+a:hover{
+	text-decoration:none;
+}
+h4{
+    text-align:center;
+}
+#datepicker{
+    border:none;
+    background-color: #00685f;
+    color:white;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left:10px;
+}
+
+#filters{
+    margin-top:8%;
+    margin-bottom:5%;
+    margin-left:8%;
+}
+#trash{
+    max-height:100px;
+}
+#buttonset{
+    margin-top:20px;
+    margin-left:40%;
+}
+.button{
+    margin-right:15px;
+}
+#trash, .scheduleinput{
+    margin-left:15px;
+    min-width: 210px;
+    max-width: 210px;
+    overflow: auto;
+}
+.scheduleinput{
+    margin-left:25px;
+}
+.scheduleinput p{
+    margin-top:10px;
+}
+#left{
+    background-color:#eceaea;
+    min-width:20%;
+    min-height:640px;
+    max-height:640px;
+    overflow:hidden;
+}
+.group, #left{
+    float: left;
+}
+.groups{
+    overflow:auto;
+}
+#add{
+    float:left;
+    width:98%;
+}
+#add img{
+    height:10%;
+    margin-left:45%;
+    margin-top:30%;
+    cursor:pointer;
+}
+#add{
+    height: 640px;
+    padding: 5px;
+    margin-left:15px;
+    border: 1px dashed #333333;
+    overflow:auto;
+}
+#gallery{
+    max-height: 570px;
+    padding: 5px;
+    margin-left:10px;
+    margin-right: 20px;
+    overflow:auto;
+    background-color: #eceaea;
+}
+body{
+	background-color: #fff;
+	min-width:1000px;
+}
+header{
+	background-color:white;
+}
+header img{
+	width: 60%;
+}
+
+header nav ul li{
+
+	text-align: center;
+	border-right: 1px solid #333333;
+	padding: 5px;
+}
+
+header nav ul li:last-child{
+	border-right: none;
+}
+
+header nav ul li:hover{
+	background-color: #00685f;
+	color: white;
+	border:1px solid rgba(0,0,0,0);
+	border-radius: 5px;
+	
+}
+#banner p{
+	position: absolute;
+	top:80px;
+	left:420px;
+	z-index:20;
+	font-size: 2.5em;
+	color: #00685f;
+	font-weight:bold;
+}
+footer, #days{
+	text-align: center;
+	position:relative;
+}
+#myCarousel{
+}
